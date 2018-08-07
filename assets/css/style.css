@@ -1,65 +1,102 @@
-/**{
-    /*background-image: url(https://media.istockphoto.com/photos/tropical-jungle-picture-id636208094?k=6&m=636208094&s=612x612&w=0&h=3Zt2dHGcgh79jN75aDtUkhsb-mm6yUiLIuq2rD4QSz4=);
+.outterShell{
+    background-image: url("http://blogs.discovermagazine.com/d-brief/files/2017/08/shutterstock_244338682.jpg");
     z-index: -1;
-}*/
-
+    padding: 20px;
+}
 .gameName{
     border: black solid 2px;
     background-color: lightslategrey;
+    margin-bottom: 20px;
     margin-left: 175px;
     margin-right: 175px;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .body{
- background-color: grey;
- border: black solid 2px;
- margin-left: 200px;
- margin-right: 200px;
- text-align: center;
+    background-color: grey;
+    border: black solid 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .randomNum{
     height: 200px;
-    width: 200px;
+    width: 325px;
     background-color: pink;
+    border: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .currentScore{
     height: 200px;
-    width: 200px;
+    width: 325px;
     background-color: red;
+    border: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .gameRow{
     margin-left: 200px;
     margin-right: 200px;
+    border: 2px black solid;
 }
 
+#gamePlay{
+    border: 2px black solid;
+
+}
 .randomNum{
     float: left;
+    border: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
 .currentScore{
     float: right;
-    
+    border: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
+
+.scoreBox{
+    margin-bottom: 20px;
+    border: 2px black solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
+    line-height: 2.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+#container2{
+    background-color: white;
+    border: 2px black solid;
+    margin: 15px 150px 15px 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 
 .buttonRow{
-    clear:both;
     display: flex;
+    padding-left: 57px;
 }
+
 
 .button1,
 .button2,
 .button3,
 .button4{
-    height: 175px;
     border: black 2px solid; 
-    margin-left: 10px;
-    margin-right: 10px
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 .button2{
@@ -73,3 +110,4 @@
 .button4{
 
 }
+
