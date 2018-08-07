@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .outterShell{
     background-image: url("http://blogs.discovermagazine.com/d-brief/files/2017/08/shutterstock_244338682.jpg");
     z-index: -1;
@@ -23,59 +26,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.randomNum{
-    height: 200px;
-    width: 325px;
-    background-color: pink;
-    border: 2px black solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.currentScore{
-    height: 200px;
-    width: 325px;
-    background-color: red;
-    border: 2px black solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.gameRow{
-    margin-left: 200px;
-    margin-right: 200px;
-    border: 2px black solid;
-}
-
-#gamePlay{
-    border: 2px black solid;
-
-}
-.randomNum{
-    float: left;
-    border: 2px black solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-
-.currentScore{
-    float: right;
-    border: 2px black solid;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-}
-
-.scoreBox{
-    margin-bottom: 20px;
-    border: 2px black solid;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-bottom: 20px;
-    line-height: 2.4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
-}
-
 #container2{
-    background-color: white;
+    background-color: rgba(248, 248, 248, 0.486);
     border: 2px black solid;
     margin: 15px 150px 15px 150px;
     padding-top: 15px;
@@ -88,7 +40,6 @@
     padding-left: 57px;
 }
 
-
 .button1,
 .button2,
 .button3,
@@ -99,15 +50,57 @@
     text-align: center;
 }
 
-.button2{
-
+#gamePlay{
+    border: 2px black solid;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
-.button3{
-
+.randomNum{
+    height: 200px;
+    width: 325px;
+    background-color: pink;
+    border: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
-.button4{
-
+.currentScore{
+    height: 200px;
+    width: 325px;
+    background-color: red;
+    border: 2px black solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    float: right;
+    margin-right: 50px;
 }
+
+.scoreBox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px black solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 18px;
+    line-height: 2.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(128, 124, 124, 0.979);
+}
+
+
+
+
+/* .gameRow{
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 2px black solid;
+    clear: both;
+} */
+
 
