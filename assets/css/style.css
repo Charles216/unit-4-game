@@ -1,0 +1,75 @@
+/**{
+    /*background-image: url(https://media.istockphoto.com/photos/tropical-jungle-picture-id636208094?k=6&m=636208094&s=612x612&w=0&h=3Zt2dHGcgh79jN75aDtUkhsb-mm6yUiLIuq2rD4QSz4=);
+    z-index: -1;
+}*/
+
+.gameName{
+    border: black solid 2px;
+    background-color: lightslategrey;
+    margin-left: 175px;
+    margin-right: 175px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.body{
+ background-color: grey;
+ border: black solid 2px;
+ margin-left: 200px;
+ margin-right: 200px;
+ text-align: center;
+}
+
+.randomNum{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+
+.currentScore{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.gameRow{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.randomNum{
+    float: left;
+    
+}
+
+.currentScore{
+    float: right;
+    
+}
+
+.buttonRow{
+    clear:both;
+    display: flex;
+}
+
+.button1,
+.button2,
+.button3,
+.button4{
+    height: 175px;
+    border: black 2px solid; 
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.button2{
+
+}
+
+.button3{
+
+}
+
+.button4{
+
+}
