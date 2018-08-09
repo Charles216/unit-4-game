@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
-        crossorigin='anonymous'></script>
+
     <title>Legend of the Blinged Out Heroes</title>
 </head>
 
@@ -23,17 +22,17 @@
             <p>*In the box below, a random number will appear at the start of each game.*</p>
 
             <p>*There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total
-            score.*
+                score.*
             </p>
 
             <p>*You win the game by matching you total score random number, you lose the game if your total score goes above
-            the random number.*
+                the random number.*
             </p>
 
             <p>*The value of each crystal is hidden from you until you click on it.*</p>
 
             <p>*Each time when the game starts, the game will change the value of each crystal.*</p>
-            
+
         </div>
 
         <div id="container2">
@@ -42,27 +41,25 @@
 
                 <div class="col-md button1">
 
-                    <input type='image' id="smurf1" src="https://i.ebayimg.com/images/g/SbgAAOSww85aZ3iW/s-l300.jpg" style="width: 150px; height: 150px">
+                    <input type='image' id="smurf1" src="assets/images/smurf.jpg" style="width: 150px; height: 150px">
 
                 </div>
 
                 <div class="col-md button2">
 
-                    <input type='image' id="pikachu2" src="https://i.ebayimg.com/images/g/3aUAAOSw4CFY3Yb7/s-l300.jpg" style="width: 150px; height: 150px">
+                    <input type='image' id="pikachu2" src="assets/images/pikachu.jpg" style="width: 150px; height: 150px">
 
                 </div>
 
                 <div class="col-md button3">
 
-                    <input type='image' id="snoopy3" src="https://i.pinimg.com/736x/b4/54/c7/b454c7d78c111d635b7ed5baaa0912d1--crystal-pendant-crystal-necklace.jpg"
-                        style="width: 150px; height: 150px">
+                    <input type='image' id="snoopy3" src="assets/images/snoopy.jpg" style="width: 150px; height: 150px">
 
                 </div>
 
                 <div class="col-md button4">
 
-                    <input type='image' id="goku4" src="https://www.dhresource.com/200x200/f2/albu/g6/M01/B6/3B/rBVaR1soahyAcLc_AANnvn-nydQ886.jpg"
-                        style="width: 150px; height: 150px">
+                    <input type='image' id="goku4" src="assets/images/goku.jpg" style="width: 150px; height: 150px">
 
                 </div>
             </div>
@@ -71,16 +68,18 @@
         <div id="gamePlay">
             <!-- <div class="gameRow"> -->
 
-            <div class="col-md-6 randomNum">...Random Number...</div>
+            <div class="col-md-6 randomNum">Random Number:
+                <p id="score"></p>
+            </div>
 
-            <div class="col-md-6 currentScore">...current Score...</div>
+            <div class="col-md-6" id="Result">Current Score:
+                <p id="currentScore"></p>
+            </div>
 
             <!-- </div> -->
 
             <!-- <div class="row"> -->
             <div class="col-md scoreBox">
-
-                <p id="score">Score:</p>
 
                 <p id="wins">Wins:</p>
 
@@ -89,11 +88,16 @@
             </div>
             <!-- </div> -->
         </div>
-
-
-
-
     </div>
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+
+    <script rel="stylesheet" type="text/javascript" src="assets/javaScript/test.js">
+    </script>
+
+
+
 </body>
 
 </html>

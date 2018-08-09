@@ -11,29 +11,34 @@ p{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.gameName{
+
+.gameName,
+.body,
+#container2,
+#gamePlay,
+.col-md-6,
+.scoreBox{
     border: black double 5px;
     background-color: rgba(248, 248, 248, 0.7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gameName{    
     margin-bottom: 20px;
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
     text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .body{
-    background-color: rgba(248, 248, 248, 0.7);
-    border: black double 5px;
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #container2{
-    background-color: rgba(248, 248, 248, 0.7);
-    border: 5px black double;
     margin: 15px 100px 15px 100px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -42,7 +47,7 @@ p{
 
 .buttonRow{
     display: flex;
-    padding-left: 57px;
+    margin-left: 60px;
 }
 
 .button1,
@@ -50,51 +55,48 @@ p{
 .button3,
 .button4{
     border: black 5px double; 
-    margin: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #gamePlay{
-    border: 5px black double;
-    background-color: rgba(248, 248, 248, 0.7);
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
+
+}
+
+.col-md-6{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(49, 48, 48, 0.952);
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    
 }
 
 .randomNum{
-    height: 200px;
-    width: 325px;
-    background-color: pink;
-    border: 4px black double;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 20px;
-    float: left;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;  
 }
 
 .currentScore{
-    height: 200px;
-    width: 325px;
-    background-color: red;
-    border: 4px black double;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
     float: right;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .scoreBox{
+    display: block;  
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 600px;
     border: 4px black solid;
     margin-left: 400px;
     margin-right: 400px;
     padding-bottom: 18px;
     line-height: 2.4;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgba(128, 124, 124, 0.979);
+    
 }
 
 
